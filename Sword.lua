@@ -229,7 +229,7 @@ local BladePart = operate(BladeMiddle,UnionTable,"union")
 BladePart.Anchored =false
 -- Sheathe Weld
 local Sheathe = Instance.new("Weld")
-Sheathe.Part0 = Sheathe
+Sheathe.Part0 = Sheathepart
 Sheathe.Part1 = charachter.Torso
 Sheathe.Parent = script
 Sheathe.C0 = Sheathe.C0*CFrame.new(Vector3.new(1,1,-.5))*CFrame.Angles(math.rad(-20),math.rad(0),math.rad(0))
