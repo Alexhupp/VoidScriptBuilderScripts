@@ -227,7 +227,7 @@ Sheathepart.Anchored = false
 local UnionTable = {BladeWedge1,BladeWedge2,BladeWedge3,BladeWedge4}
 local BladePart = operate(BladeMiddle,UnionTable,"union")
 BladePart.Anchored =false
--- Sheathe Weld
+-- Sheathe Weld ???
 local Sheathe = Instance.new("Weld")
 Sheathe.Part0 = Sheathepart
 Sheathe.Part1 = charachter.Torso
